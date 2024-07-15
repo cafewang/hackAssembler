@@ -6,12 +6,8 @@ public class Label implements Symbol {
         this.address = address;
     }
 
-    private String name;
-    private Integer address;
-
-    public String getName() {
-        return name;
-    }
+    private final String name;
+    private final Integer address;
 
     public Integer getAddress() {
         return address;

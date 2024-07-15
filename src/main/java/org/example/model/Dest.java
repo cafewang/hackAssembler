@@ -20,7 +20,7 @@ public class Dest {
         return !name.isEmpty() && MACHINE_CODE_MAPPING.containsKey(name);
     }
 
-    private String instruction;
+    private final String instruction;
 
     public Dest(String instruction) {
         this.instruction = instruction;

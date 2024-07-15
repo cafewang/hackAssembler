@@ -11,18 +11,6 @@ public class CInstruction implements Instruction {
         this.jump = jump;
     }
 
-    public Dest getDest() {
-        return dest;
-    }
-
-    public Comp getComp() {
-        return comp;
-    }
-
-    public Jump getJump() {
-        return jump;
-    }
-
     public String machineCode() {
         return "111" + comp.getCode() + dest.getCode() + jump.getCode();
     }

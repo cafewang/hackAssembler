@@ -13,7 +13,4 @@ public class Variable implements Symbol {
         return address;
     }
 
-    public String getName() {
-        return name;
-    }
 }
